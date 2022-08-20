@@ -1,0 +1,376 @@
+#root {
+  width: 100%;
+  height: 100vh;
+}
+
+.button:hover{
+  background-color:#535252;
+  cursor: pointer;  
+}
+
+@media screen and (max-width: 377px) {
+  .home-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 110vh;
+  }
+  
+  .page {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 95%;
+    height: 95%;
+  }
+  
+  .left-section-container {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .footer-container {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+    height: 100px;
+  }
+
+  .social-media-logo {
+    width: 20px;
+    height: 20px
+  }
+
+  .home-image {
+    width: 311px;
+    height: 481px;
+  }
+  
+  .right-section-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .h1-container {
+    display: flex;
+  }
+
+  .buttons-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .header-text {
+    color: #323232;
+    font-weight: bold;
+    font-size: 38px;
+    font-family: "Lora", serif;
+    margin: 0;
+    text-shadow: rgb(226, 221, 221) 2px 2px 2px;
+  }
+
+  .paragraph {
+    font-family: "Lora", serif;
+  }
+
+  .button {
+    width: 305px;
+    height: 51px;
+    background-color: #323232;
+    border-radius: 25px;
+  }
+  
+  .button a {
+    text-decoration: none;
+    color: #fff;
+    font-family: "Lora", serif;
+    font-weight: 400;
+    font-size: 19px;
+  }
+}
+
+
+@media screen and (max-width: 667px) and (min-width: 378px) {
+  .home-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 110vh;
+  }
+  
+  .page {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 95%;
+    height: 95%;
+  }
+  
+  .left-section-container {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .footer-container {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+    height: 100px;
+  }
+
+  .social-media-logo {
+    width: 20px;
+    height: 20px
+  }
+
+  .home-image {
+    width: 311px;
+    height: 481px;
+  }
+  
+  .right-section-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .h1-container {
+    display: flex;
+  }
+
+  .buttons-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .header-text {
+    color: #323232;
+    font-weight: bold;
+    font-size: 45px;
+    font-family: "Lora", serif;
+    margin: 0;
+    text-shadow: rgb(226, 221, 221) 2px 2px 2px;
+  }
+
+  .paragraph {
+    font-family: "Lora", serif;
+  }
+
+  .button {
+    width: 305px;
+    height: 51px;
+    background-color: #323232;
+    border-radius: 25px;
+  }
+  
+  .button a {
+    text-decoration: none;
+    color: #fff;
+    font-family: "Lora", serif;
+    font-weight: 400;
+    font-size: 19px;
+  }
+}
+
+@media screen and (max-width: 767px) and (min-width: 668px){
+  .home-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 110vh;
+  }
+  
+  .page {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 20px;
+    width: 75%;
+  }
+  
+  .left-section-container {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .footer-container {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+    height: 100px;
+  }
+
+  .social-media-logo {
+    width: 20px;
+    height: 20px
+  }
+
+  .home-image {
+    width: 382px;
+    height: 481px;
+  }
+  
+  .right-section-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .h1-container {
+    display: flex;
+  }
+
+  .buttons-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .header-text {
+    color: #323232;
+    font-weight: bold;
+    font-size: 50px;
+    font-family: "Lora", serif;
+    margin: 0;
+    text-shadow: rgb(226, 221, 221) 2px 2px 2px;
+  }
+
+  .paragraph {
+    font-family: "Lora", serif;
+  }
+
+  .button {
+    width: 345px;
+    height: 51px;
+    background-color: #323232;
+    border-radius: 25px;
+  }
+  
+  .button a {
+    text-decoration: none;
+    color: #fff;
+    font-family: "Lora", serif;
+    font-weight: 400;
+    font-size: 19px;
+  }
+
+}
+@media screen and (min-width: 768px) {
+  .home-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+  }
+  
+  .page {
+    display: flex;
+    gap: 20px
+  }
+  
+  .home-image {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .right-section-container {
+    display: flex;
+    flex-direction: column;
+    width: 48%;
+    height: 80%;
+    justify-content: space-evenly;
+  }
+
+  .buttons-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .header-text {
+    color: #323232;
+    font-weight: bold;
+    font-size: 64px;
+    font-family: "Lora", serif;
+    margin: 0;
+    text-shadow: rgb(226, 221, 221) 2px 2px 2px;
+  }
+
+  .h1-container .header-text-container:nth-child(1) h1{
+    position: relative;
+    right: 80px;
+  }
+
+  .paragraph {
+    font-family: "Lora", serif;
+  }
+
+  .button {
+    width: 345px;
+    height: 51px;
+    background-color: #323232;
+    border-radius: 25px;
+  }
+  
+  .button a {
+    text-decoration: none;
+    color: #fff;
+    font-family: "Lora", serif;
+    font-weight: 400;
+    font-size: 19px;
+  }
+
+  .footer-container {
+    height: 150px;
+  }
+
+  footer {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 90px;
+    height: 100px;
+  }
+
+  .social-media-logo {
+    width: 20px;
+    height: 20px
+  }
+}
