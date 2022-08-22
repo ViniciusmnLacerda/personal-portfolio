@@ -6,6 +6,8 @@ body {
   padding: 0;
   box-sizing: border-box;
   background-color: rgb(243, 243, 243);
+  background-image: url('/public/mesh-116.png');
+  background-size: cover;
 }
 
 code {
