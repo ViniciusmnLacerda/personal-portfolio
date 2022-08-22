@@ -6,9 +6,14 @@ import './Projects.css';
 
 class Projects extends React.Component {
   render() {
+    const navItems = ['HOME', 'ABOUT', 'SKILLS', 'CONTACT'];
+    const pathNavItens = ['/', '/about', '/skills', '/contact'];
     return (
       <div className="main-container">
-        <DrawerAppBar color="red" />
+        <DrawerAppBar
+          navItems={navItems}
+          pathNavItens={pathNavItens}
+        />
         <main className="projects">
           <div>
             <h1 className="projects-title">{'Projects I\'ve Worked On'}</h1>

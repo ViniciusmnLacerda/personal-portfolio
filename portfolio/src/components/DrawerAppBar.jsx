@@ -16,10 +16,9 @@ import * as React from 'react';
 import { Link } from 'react-router-dom';
 
 const drawerWidth = 240;
-const navItems = ['HOME', 'SKILLS', 'CONTACT'];
 
 function DrawerAppBar(props) {
-  const { window } = props;
+  const { window, navItems, pathNavItens } = props;
   const [mobileOpen, setMobileOpen] = React.useState(false);
 
   const handleDrawerToggle = () => {
@@ -33,10 +32,10 @@ function DrawerAppBar(props) {
       </Typography>
       <Divider />
       <List>
-        {navItems.map((item) => (
+        {navItems.map((item, index) => (
           <ListItem key={item} disablePadding>
             <ListItemButton sx={{ textAlign: 'center' }}>
-              <ListItemText primary={item} />
+              <ListItemText primary={<a className="small-navlink" href={pathNavItens[index]}>{navItems[index]}</a>} />
             </ListItemButton>
           </ListItem>
         ))}
@@ -67,9 +66,9 @@ function DrawerAppBar(props) {
             Vinícius Lacerda
           </Typography>
           <Box sx={{ display: { xs: 'none', sm: 'block' } }}>
-            {navItems.map((item) => (
+            {navItems.map((item, index) => (
               <Button key={item} sx={{ color: '#fff' }}>
-                <Link to="/" className="navlink">{item}</Link>
+                <Link to={pathNavItens[index]} className="navlink">{item}</Link>
               </Button>
             ))}
           </Box>
@@ -101,6 +100,8 @@ function DrawerAppBar(props) {
 
 DrawerAppBar.propTypes = {
   window: PropTypes.func.isRequired,
+  navItems: PropTypes.arrayOf(PropTypes.string).isRequired,
+  pathNavItens: PropTypes.arrayOf(PropTypes.string).isRequired,
 };
 
 export default DrawerAppBar;

@@ -22,6 +22,14 @@ const musicPLayer = {
   href: 'https://github.com/ViniciusmnLacerda/personal-portfolio',
 };
 
-const infoProjects = [tryunfo, onlineStore, musicPLayer];
+const shoppingCart = {
+  title: 'Shopping Cart',
+  description: 'Descrição - colocar em inglês - do projeto Shopping Cart',
+  image: '/shopping-cart.png',
+  path: '/projects/shopping-cart',
+  href: 'https://github.com/ViniciusmnLacerda/personal-portfolio',
+};
+
+const infoProjects = [tryunfo, onlineStore, musicPLayer, shoppingCart];
 
 export default infoProjects;

@@ -3,6 +3,11 @@
   color: #fff;
 }
 
+.small-navlink {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.87);
+}
+
 .navlink:hover {
   color:#535252;
   cursor: pointer;  
@@ -12,6 +17,7 @@
   display: flex;
   flex-direction: column;
   gap: 50px;
+  align-items: center;
 }
 
 .projects-container {
@@ -19,7 +25,8 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  gap: 80px
+  gap: 80px;
+  max-width: 1121px;
 }
 
 .projects-title {
@@ -40,19 +47,25 @@
     margin-left: 5px;
     margin-right: 5px;
   }
+  .main-container { 
+    padding-bottom: 30px;
+  }
 }
 
-@media screen and (max-width: 667px) and (min-width: 378px) {
-
+@media screen and (max-width: 667px) and (min-width: 378px) { 
+  .main-container { 
+    padding-bottom: 30px;
+  }
 }
 
 @media screen and (max-width: 767px) and (min-width: 668px) {
-
+  .main-container { 
+    padding-bottom: 30px;
+  }
 }
 
 @media screen and (min-width: 768px) {
-  .MuiPaper-root {
-    justify-content: space-evenly;
-    align-items: var(/* stylelint-disable-next-line rule */);
+  .main-container { 
+    padding-bottom: 30px;
   }
 }

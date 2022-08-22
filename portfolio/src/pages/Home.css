@@ -8,118 +8,17 @@
   cursor: pointer;  
 }
 
-@media screen and (max-width: 377px) {
+@media screen and (max-width: 667px) {
   .home-container {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 145vh;
   }
   
   .page {
     display: flex;
     flex-direction: column-reverse;
     width: 95%;
-    height: 95%;
-  }
-  
-  .left-section-container {
-    display: flex;
-    flex-direction: column-reverse;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .footer-container {
-    height: 50px;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-  footer {
-    height: 100px;
-    width: 90%;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-  }
-
-  .social-media-logo {
-    width: 20px;
-    height: 20px
-  }
-
-  .home-image {
-    width: 95%;
-    height: 481px;
-  }
-  
-  .right-section-container {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-  }
-
-  .h1-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 90%;
-  }
-
-  .buttons-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 10px;
-  }
-  
-  .header-text {
-    color: #323232;
-    font-weight: bold;
-    font-size: 150%;
-    font-family: "Lora", serif;
-    margin: 0;
-    text-shadow: rgb(226, 221, 221) 2px 2px 2px;
-  }
-
-  .paragraph {
-    font-family: "Lora", serif;
-    text-align: center;
-  }
-
-  .button {
-    width: 90%;
-    height: 51px;
-    background-color: #323232;
-    border-radius: 25px;
-  }
-  
-  .button a {
-    text-decoration: none;
-    color: #fff;
-    font-family: "Lora", serif;
-    font-weight: 400;
-    font-size: 19px;
-  }
-}
-
-
-@media screen and (max-width: 667px) and (min-width: 378px) {
-  .home-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 145vh;
-  }
-  
-  .page {
-    display: flex;
-    flex-direction: column-reverse;
-    width: 95%;
-    height: 95%;
   }
   
   .left-section-container {
@@ -175,7 +74,7 @@
   .header-text {
     color: #323232;
     font-weight: bold;
-    font-size: 45px;
+    font-size: 250%;
     font-family: "Lora", serif;
     margin: 0;
     text-shadow: rgb(226, 221, 221) 2px 2px 2px;
