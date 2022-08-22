@@ -1,9 +1,17 @@
 import React from 'react';
+import DrawerAppBar from '../components/DrawerAppBar';
 
 class About extends React.Component {
   render() {
+    const navItems = ['HOME', 'PROJECTS', 'SKILLS', 'CONTACT'];
+    const pathNavItens = ['/', '/projects', '/skills', '/contact'];
     return (
-      <h1>About Component</h1>
+      <div>
+        <DrawerAppBar
+          navItems={navItems}
+          pathNavItens={pathNavItens}
+        />
+      </div>
     );
   }
 }
