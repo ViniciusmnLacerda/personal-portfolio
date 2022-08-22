@@ -30,6 +30,7 @@
 
   .footer-container {
     height: 50px;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -38,9 +39,10 @@
   footer {
     display: flex;
     align-items: center;
-    justify-content: center;
-    gap: 90px;
+    justify-content: space-around;
     height: 100px;
+    width: 95%;
+    max-width: 320px;
   }
 
   .social-media-logo {
@@ -49,7 +51,8 @@
   }
 
   .home-image {
-    width: 311px;
+    width: 95%;
+    max-width: 320px;
     height: 481px;
   }
   
@@ -63,18 +66,13 @@
 
   .h1-container {
     display: flex;
+    flex-wrap: wrap;
   }
 
-  .buttons-container {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-  }
-  
   .header-text {
     color: #323232;
     font-weight: bold;
-    font-size: 250%;
+    font-size: 240%;
     font-family: "Lora", serif;
     margin: 0;
     text-shadow: rgb(226, 221, 221) 2px 2px 2px;
@@ -84,9 +82,18 @@
     font-family: "Lora", serif;
   }
 
+  .buttons-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+  }
+
   .button {
-    width: 305px;
+    width: 95%;
     height: 51px;
+    max-width: 320px;
     background-color: #323232;
     border-radius: 25px;
   }
@@ -105,7 +112,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 160vh;
   }
   
   .page {
@@ -201,6 +207,8 @@
     align-items: center;
     height: 100vh;
     width: 100%;
+    margin-left: 5px;
+    margin-right: 5px;
   }
   
   .page {
