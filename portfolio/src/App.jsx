@@ -23,7 +23,7 @@ class App extends React.Component {
           />
           <Route
             exact
-            path="/Projects"
+            path="/projects"
             component={Projects}
           />
           <Route

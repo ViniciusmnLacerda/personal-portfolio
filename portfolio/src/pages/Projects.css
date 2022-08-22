@@ -1,0 +1,58 @@
+.navlink {
+  text-decoration: none;
+  color: #fff;
+}
+
+.navlink:hover {
+  color:#535252;
+  cursor: pointer;  
+}
+
+.projects {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.projects-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 80px
+}
+
+.projects-title {
+  color: #323232;
+  font-weight: bold;
+  font-family: "Lora", serif;
+  text-shadow: rgb(226, 221, 221) 2px 2px 2px;
+  text-align: center;
+}
+
+.projects-paragraph {
+  font-family: "Lora", serif;
+  text-align: center;
+}
+
+@media screen and (max-width: 377px) {
+  .projects-container {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+}
+
+@media screen and (max-width: 667px) and (min-width: 378px) {
+
+}
+
+@media screen and (max-width: 767px) and (min-width: 668px) {
+
+}
+
+@media screen and (min-width: 768px) {
+  .MuiPaper-root {
+    justify-content: space-evenly;
+    align-items: var(/* stylelint-disable-next-line rule */);
+  }
+}
