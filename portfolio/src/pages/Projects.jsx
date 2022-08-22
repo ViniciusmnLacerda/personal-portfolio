@@ -2,7 +2,7 @@ import React from 'react';
 import DrawerAppBar from '../components/DrawerAppBar';
 import ImgMediaCard from '../components/ImgMediaCard';
 import infoProjects from '../services/infoProjects';
-import './Projects.css';
+import '../styles/Projects.css';
 
 class Projects extends React.Component {
   render() {
