@@ -2,7 +2,7 @@ const tryunfo = {
   title: 'Tryunfo Game',
   description: 'That project was the development of a Super Trump game. This game was famous in the 90s.',
   image: '/tryunfo.png',
-  path: '/projects/tryunfo',
+  path: 'https://top-trumps.vercel.app/',
   href: 'https://github.com/ViniciusmnLacerda/top-trumps',
 };
 

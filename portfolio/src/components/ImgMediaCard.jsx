@@ -6,7 +6,6 @@ import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import PropTypes from 'prop-types';
 import * as React from 'react';
-import { Link } from 'react-router-dom';
 
 class ImgMediaCard extends React.Component {
   render() {
@@ -31,7 +30,7 @@ class ImgMediaCard extends React.Component {
         </CardContent>
         <CardActions>
           <Button size="small"><a href={href} target="_blank" rel="noreferrer">View the Code</a></Button>
-          <Button size="small"><Link to={path}>View the App</Link></Button>
+          <Button size="small"><a href={path} target="_blank" rel="noreferrer">View the App</a></Button>
         </CardActions>
       </Card>
     );
