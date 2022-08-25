@@ -3,7 +3,7 @@ const tryunfo = {
   description: 'That project was the development of a Super Trump game. This game was famous in the 90s.',
   image: '/tryunfo.png',
   path: '/projects/tryunfo',
-  href: 'https://github.com/ViniciusmnLacerda/personal-portfolio',
+  href: 'https://github.com/ViniciusmnLacerda/top-trumps',
 };
 
 const onlineStore = {
