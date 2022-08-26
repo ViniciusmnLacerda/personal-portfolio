@@ -6,15 +6,17 @@ body{
   background: #241d20;
 }
 .container{
-  text-align: center;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 3%;
 }
 .container span{
-  text-transform: uppercase;
   display: block;
 }
 .text1{
@@ -26,10 +28,12 @@ body{
   background: #241d20;
   position: relative;
   animation: text 2.5s 1;
+  width: 90%;
+  max-width: 362px;
 }
 .text2{
-  font-size: 30px;
-  color: rgb(144, 12, 184);
+  font-size: 1.2rem;
+  color: white;
 }
 @keyframes text {
   0%{
@@ -40,4 +44,19 @@ body{
     letter-spacing: 25px;
     margin-bottom: -40px;
   }
+}
+
+h1 {
+  letter-spacing: 8px;
+  font-size: 2.4rem;
+  color: white;
+}
+
+.badge {
+  text-align: center;
+  width: 40%;
+  max-width: 252px;
+  min-width: 205px;
+  border-radius: 5px;
+  background-color: #9b30f9;
 }

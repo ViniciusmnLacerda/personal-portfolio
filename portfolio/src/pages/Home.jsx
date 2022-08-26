@@ -1,7 +1,9 @@
 import React from 'react';
 import BackgroundAnimation from '../components/BackgroundAnimation';
+import DrawerAppBar from '../components/DrawerAppBar';
 import Loading from '../components/Loading';
 import Title from '../components/Title';
+import '../styles/Home.css';
 
 class Home extends React.Component {
   constructor() {
@@ -24,13 +26,21 @@ class Home extends React.Component {
 
   render() {
     const { loading } = this.state;
+    const navItems = ['HOME', 'ABOUT', 'PROJECTS', 'SKILLS'];
+    const pathNavItens = ['/', '/about', '/projects', '/skills'];
     return (
       <div>
         {loading ? (
           <Loading />
         ) : (
           <BackgroundAnimation>
-            <Title />
+            <div className="home-container">
+              <DrawerAppBar
+                navItems={navItems}
+                pathNavItens={pathNavItens}
+              />
+              <Title />
+            </div>
           </BackgroundAnimation>
         )}
       </div>
