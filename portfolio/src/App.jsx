@@ -12,6 +12,11 @@ class App extends React.Component {
             path="/"
             component={Home}
           />
+          <Route
+            exact
+            path="/teste"
+            component={Home}
+          />
         </Switch>
       </BrowserRouter>
     );

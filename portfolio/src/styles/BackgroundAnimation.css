@@ -1,6 +1,4 @@
 #nc-main {
-  position: relative;
-  height: 100vh;
   overflow-x: hidden;
   -webkit-box-shadow: 0 0 30px #241d20;
   box-shadow: 0 0 30px #241d20;
@@ -8,18 +6,16 @@
   transition: -webkit-transform 0.4s;
   transition: transform 0.4s;
   transition: transform 0.4s, -webkit-transform 0.4s;
-}
-
-#nc-main {
- background-color: #241d20;
+  background-color: #241d20;
+  height: 100vh;
 }
 
 .full-wh {
-  position: absolute;
   top: 0px;
   left: 0px;
   bottom: 0px;
   width: 100%;
+  height: 100vh;
 }
 
 .bg-animation {
@@ -35,7 +31,7 @@
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%;
+  height: 100vh;
 }
 #stars {
   width: 1px;

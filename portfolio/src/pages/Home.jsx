@@ -1,7 +1,9 @@
 import React from 'react';
 import BackgroundAnimation from '../components/BackgroundAnimation';
-import DrawerAppBar from '../components/DrawerAppBar';
+import EmailSideBar from '../components/EmailSideBar';
 import Loading from '../components/Loading';
+import Navbar from '../components/NavBar';
+import SocialSideBar from '../components/SocialSideBar';
 import Title from '../components/Title';
 import '../styles/Home.css';
 
@@ -26,20 +28,23 @@ class Home extends React.Component {
 
   render() {
     const { loading } = this.state;
-    const navItems = ['HOME', 'ABOUT', 'PROJECTS', 'SKILLS'];
-    const pathNavItens = ['/', '/about', '/projects', '/skills'];
+    const navItems = ['HOME', 'PROJECTS', 'SKILLS', 'CONTACT'];
+    const pathNavItens = ['/', '/projects', '/skills', '/contact'];
     return (
-      <div>
+      <div className="App">
         {loading ? (
           <Loading />
         ) : (
           <BackgroundAnimation>
             <div className="home-container">
-              <DrawerAppBar
+              <Navbar
                 navItems={navItems}
                 pathNavItens={pathNavItens}
               />
-              <Title />
+              <Title>
+                <SocialSideBar />
+                <EmailSideBar />
+              </Title>
             </div>
           </BackgroundAnimation>
         )}

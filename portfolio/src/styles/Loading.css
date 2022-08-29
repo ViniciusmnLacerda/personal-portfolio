@@ -1,9 +1,5 @@
-html {
-  background-color: #241d20;
-}
-
 .loader {
-  color: rgb(187, 181, 194);
+  color: #ff6363;
   -webkit-animation: rotate 3.33334s infinite linear;
           animation: rotate 3.33334s infinite linear;
   font-size: 200%;
