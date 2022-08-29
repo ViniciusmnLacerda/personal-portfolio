@@ -1,0 +1,71 @@
+.email-fixed {
+  display: flex;
+  width: 385px;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  opacity: 0;
+  bottom: 120px;
+  transform: rotate(90deg);
+  animation: show-email 600ms ease forwards;
+  animation-delay: 4.7s;
+}
+
+.email-fixed .email-text {
+  color: #fff;
+}
+
+@keyframes show-email {
+  from {
+    opacity: 0;
+    right: -580px;
+  }
+  to {
+    opacity: 1;
+    right: -500px;
+  }
+}
+
+.email-text {
+  font-size: 0.9rem;
+  letter-spacing: 0.1rem;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.email-text:hover {
+  transform: translateX(-7px);
+  color: #ff6363;
+}
+
+.email-fixed-line {
+  margin-left: 40px;
+  width: 90px;
+}
+
+@media screen and (min-width: 600px) and (max-width: 728px){
+  @keyframes show-email {
+    from {
+      opacity: 0;
+      right: -310px;
+    }
+    to {
+      opacity: 1;
+      right: -60%
+    }
+  }
+}
+
+@media screen and (min-width: 729px) and (max-width: 1130px){
+  @keyframes show-email {
+    from {
+      opacity: 0;
+      right: -380px;
+    }
+    to {
+      opacity: 1;
+      right: -80%
+    }
+  }
+}

@@ -1,0 +1,150 @@
+.body-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.title{
+  font-size: 36px;
+  color: rgb(194, 194, 194);
+  line-height: 1.1;
+  letter-spacing: 4px;
+  animation: show-title 2500ms ease forwards;
+}
+
+.subtitle-line {
+  color: rgb(194, 194, 194);
+  font-size: 1.2em;
+  margin: 0 auto;
+  border-right: 2px solid rgba(255, 255, 255, .75);
+  white-space: nowrap;
+  overflow: hidden;
+  text-align: center;
+  position: relative;
+}
+
+.letter-subtitle {
+  font-weight: bold;
+  opacity: 0.7;
+  letter-spacing: 5px;
+}
+
+.letter-subtitle:hover {
+  color: #ff6363;
+  margin: 0 5;
+}
+
+.typing-animation {
+  animation: blinkCursor 500ms steps(40) infinite normal,
+    typing 4s steps(40) 1s normal both;
+}
+
+.animated {
+  background-repeat: no-repeat;
+  background-position: left top;
+  -webkit-animation-duration: 10s;
+  animation-duration: 10s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+@keyframes fadeInDown {
+  0% {
+     opacity: 0;
+     transform: translateY(-20px);
+  }
+  100% {
+     opacity: 1;
+     transform: translateY(0);
+  }
+}
+
+.fadeInDown {
+  -webkit-animation-name: fadeInDown;
+  animation-name: fadeInDown;
+}
+
+@keyframes show-title {
+  from {
+    opacity: 0;
+    margin-top: -500px;
+  }
+  to {
+    opacity: 1;
+    margin-top: -200px;
+  }
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to{
+    width: 18em;
+    transform: translate3d(0px, 0px, 0px);
+  }
+}
+
+@keyframes blinkCursor {
+  from {
+    border-right-color: (255, 255, 255, .75)
+  }
+  to {
+    border-right-color: transparent
+  }
+}
+
+.letter-subtitle:hover {
+  color: #ff6363;
+}
+
+
+@media screen and (max-width: 328px) and (min-width: 250px){
+  .body-title {
+    margin-right: 30%;
+  }
+
+  .title{
+    font-size: 20px;
+  }
+
+  .letter-subtitle {
+    font-size: 15px;
+    letter-spacing: 0;
+  }
+}
+
+@media screen and (max-width: 414px) and (min-width: 329px){
+  .body-title {
+    margin-right: 25%;
+  }
+
+  .title{
+    font-size: 28px;
+    letter-spacing: 2px;
+  }
+  .letter-subtitle {
+    font-size: 20px;
+    letter-spacing: 2px;
+  }
+  
+}
+
+@media screen and (min-width: 415px) and (max-width: 599px){
+  .body-title {
+    margin-right: 17%;
+  }
+
+  .title{
+    font-size: 36px;
+    letter-spacing: 2px;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .body-title {
+    margin-right: 10%;
+  }
+}

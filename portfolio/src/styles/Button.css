@@ -1,0 +1,53 @@
+.bubbly-button {
+  color: #FFF;
+  position: fixed;
+  top: 90%;
+  left: 44%;
+  animation: show-button 3s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  animation-delay: 1.4s;
+}
+
+.animate {
+  position: fixed;
+}
+@media screen and (max-width: 728px) {
+
+}
+ 
+@media screen and (max-width: 328px) and (min-width: 250px){
+  .bubbly-button {
+    left: 24%;
+
+  }
+}
+
+@media screen and (max-width: 414px) and (min-width: 329px){
+  .bubbly-button {
+    left: 31%;
+
+  }
+}
+
+@media screen and (min-width: 415px) and (max-width: 599px){
+  .bubbly-button {
+    left: 38%;
+
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 700px){
+  .bubbly-button {
+    left: 41%;
+
+  }
+}
+
+@keyframes show-button {
+  from {
+    top: 5000px;
+  }
+  to {
+    opacity: 1;
+    top: 90%;
+  }
+}

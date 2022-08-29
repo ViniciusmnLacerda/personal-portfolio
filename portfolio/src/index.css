@@ -1,16 +1,9 @@
 body {
   margin: 0;
-  font-family: Roboto, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
   padding: 0;
   box-sizing: border-box;
-  background-color: rgb(243, 243, 243);
-  background-image: url('/public/mesh-116.png');
-  background-size: cover;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+    font-family: "Raleway", sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #241d20;
 }
