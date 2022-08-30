@@ -114,6 +114,16 @@
     font-size: 15px;
     letter-spacing: 0;
   }
+
+  @keyframes typing {
+  from {
+    width: 0;
+  }
+  to{
+    width: 11em;
+    transform: translate3d(0px, 0px, 0px);
+  }
+}
 }
 
 @media screen and (max-width: 414px) and (min-width: 329px){
@@ -129,6 +139,16 @@
     font-size: 20px;
     letter-spacing: 2px;
   }
+
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+    to{
+      width: 16em;
+      transform: translate3d(0px, 0px, 0px);
+    }
+  }
   
 }
 
@@ -141,10 +161,28 @@
     font-size: 36px;
     letter-spacing: 2px;
   }
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+    to{
+      width: 18em;
+      transform: translate3d(0px, 0px, 0px);
+    }
+  }
 }
 
 @media screen and (min-width: 600px) {
   .body-title {
     margin-right: 10%;
+  }
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+    to{
+      width: 19em;
+      transform: translate3d(0px, 0px, 0px);
+    }
   }
 }
