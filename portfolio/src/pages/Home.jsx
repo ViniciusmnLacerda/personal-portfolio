@@ -2,7 +2,7 @@ import React from 'react';
 import BackgroundAnimation from '../components/BackgroundAnimation';
 import EmailSideBar from '../components/EmailSideBar';
 import Loading from '../components/Loading';
-import Navbar from '../components/NavBar';
+import NavBar from '../components/NavBar';
 import SocialSideBar from '../components/SocialSideBar';
 import Title from '../components/Title';
 import '../styles/Home.css';
@@ -37,7 +37,7 @@ class Home extends React.Component {
         ) : (
           <BackgroundAnimation>
             <div className="home-container">
-              <Navbar
+              <NavBar
                 navItems={navItems}
                 pathNavItens={pathNavItens}
               />

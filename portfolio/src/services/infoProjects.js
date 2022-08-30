@@ -1,33 +1,37 @@
 const infoProjects = [{
-  title: 'Tryunfo Game',
-  description: 'That project was the development of a Super Trump game. This game was famous in the 90s.',
+  title: 'Top Trump Game',
+  description: 'Lorem ipsum gravida mi faucibus litora varius himenaeos sodales etiam et, senectus a gravida nisi accumsan aenean justo sagittis torquent.',
   image: '/tryunfo.png',
-  path: 'https://top-trumps.vercel.app/',
-  href: 'https://github.com/ViniciusmnLacerda/top-trumps',
+  pathToApp: 'https://top-trumps.vercel.app/',
+  pathToGitHub: 'https://github.com/ViniciusmnLacerda/top-trumps',
+  techlist: ['VS code', 'ReactJS', 'Responsive'],
 },
 
 {
   title: 'Online Store',
   description: 'Descrição -colocar em ingles- do projeto frontend online store',
   image: '/online-store.png',
-  path: '/projects/online-store',
-  href: 'https://github.com/ViniciusmnLacerda/personal-portfolio',
+  pathToApp: '/projects/online-store',
+  pathToGitHub: 'https://github.com/ViniciusmnLacerda/personal-portfolio',
+  techlist: ['VS code', 'ReactJS', 'Responsive'],
 },
 
 {
   title: 'Music Player',
   description: 'Descrição - colocar em inglês - do projeto trybetunes',
   image: '/music-player.png',
-  path: '/projects/music-player',
-  href: 'https://github.com/ViniciusmnLacerda/personal-portfolio',
+  pathToApp: '/projects/music-player',
+  pathToGitHub: 'https://github.com/ViniciusmnLacerda/personal-portfolio',
+  techlist: ['VS code', 'ReactJS', 'Responsive'],
 },
 
 {
   title: 'Shopping Cart',
   description: 'Descrição - colocar em inglês - do projeto Shopping Cart',
   image: '/shopping-cart.png',
-  path: '/projects/shopping-cart',
-  href: 'https://github.com/ViniciusmnLacerda/personal-portfolio',
+  pathToApp: '/projects/shopping-cart',
+  pathToGitHub: 'https://github.com/ViniciusmnLacerda/personal-portfolio',
+  techlist: ['VS code', 'ReactJS', 'Responsive'],
 },
 ];
 

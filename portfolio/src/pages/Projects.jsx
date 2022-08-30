@@ -1,7 +1,6 @@
 import React from 'react';
 import Card from '../components/Card';
 import Navbar from '../components/NavBar';
-import '../styles/Projects.css';
 
 class Projects extends React.Component {
   render() {
