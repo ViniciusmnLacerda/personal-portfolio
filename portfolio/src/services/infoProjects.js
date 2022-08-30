@@ -1,5 +1,5 @@
 const infoProjects = [{
-  title: 'Top Trump Game',
+  title: 'Top Trump',
   description: 'Lorem ipsum gravida mi faucibus litora varius himenaeos sodales etiam et, senectus a gravida nisi accumsan aenean justo sagittis torquent.',
   image: '/tryunfo.png',
   pathToApp: 'https://top-trumps.vercel.app/',
