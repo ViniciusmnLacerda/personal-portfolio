@@ -1,12 +1,12 @@
 #nc-main {
   overflow-x: hidden;
-  -webkit-box-shadow: 0 0 30px #241d20;
-  box-shadow: 0 0 30px #241d20;
+  -webkit-box-shadow: 0 0 30px #1d1d1d;;
+  box-shadow: 0 0 30px #1d1d1d;;
   -webkit-transition: -webkit-transform 0.4s;
   transition: -webkit-transform 0.4s;
   transition: transform 0.4s;
   transition: transform 0.4s, -webkit-transform 0.4s;
-  background-color: #241d20;
+  background-color: #1d1d1d;
   height: 100vh;
 }
 

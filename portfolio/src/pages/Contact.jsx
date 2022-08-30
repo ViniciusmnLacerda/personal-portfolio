@@ -1,5 +1,5 @@
 import React from 'react';
-import DrawerAppBar from '../components/DrawerAppBar';
+import Navbar from '../components/NavBar';
 
 class Contact extends React.Component {
   render() {
@@ -7,7 +7,7 @@ class Contact extends React.Component {
     const pathNavItens = ['/', '/about', '/projects', '/skills'];
     return (
       <div>
-        <DrawerAppBar
+        <Navbar
           navItems={navItems}
           pathNavItens={pathNavItens}
         />

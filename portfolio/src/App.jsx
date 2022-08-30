@@ -1,6 +1,7 @@
 import React from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import Home from './pages/Home';
+import Projects from './pages/Projects';
 
 class App extends React.Component {
   render() {
@@ -14,8 +15,8 @@ class App extends React.Component {
           />
           <Route
             exact
-            path="/teste"
-            component={Home}
+            path="/projects"
+            component={Projects}
           />
         </Switch>
       </BrowserRouter>
