@@ -1,6 +1,7 @@
 .email-fixed {
   display: flex;
-  width: 385px;
+  width: 400px;
+  height: 70px;
   align-items: center;
   justify-content: space-between;
   position: fixed;
@@ -41,7 +42,56 @@
 
 .email-fixed-line {
   margin-left: 40px;
-  width: 90px;
+  width: 100%;
+}
+
+
+@media screen and (max-width: 328px) and (min-width: 250px){
+  .email-fixed {
+    transform: rotate(0deg);
+  }
+  @keyframes show-email {
+    from {
+      opacity: 0;
+      right: -310px;
+    }
+    to {
+      opacity: 1;
+      right: -170px
+    }
+  }
+}
+
+@media screen and (max-width: 466px) and (min-width: 300px){
+  .email-fixed {
+    transform: rotate(0deg);
+  }
+  @keyframes show-email {
+    from {
+      opacity: 0;
+      right: -310px;
+    }
+    to {
+      opacity: 1;
+      right: -190px
+    }
+  }
+}
+
+@media screen and (max-width: 599px) and (min-width: 467px){
+  .email-fixed {
+    transform: rotate(0deg);
+  }
+  @keyframes show-email {
+    from {
+      opacity: 0;
+      right: -310px;
+    }
+    to {
+      opacity: 1;
+      right: -180px
+    }
+  }
 }
 
 @media screen and (min-width: 600px) and (max-width: 728px){
@@ -52,7 +102,7 @@
     }
     to {
       opacity: 1;
-      right: -60%
+      right: -240px
     }
   }
 }

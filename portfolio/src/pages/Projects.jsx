@@ -1,43 +1,20 @@
 import React from 'react';
-import DrawerAppBar from '../components/DrawerAppBar';
-import ImgMediaCard from '../components/ImgMediaCard';
-import infoProjects from '../services/infoProjects';
-import '../styles/Projects.css';
+import Card from '../components/Card';
+import Navbar from '../components/NavBar';
 
 class Projects extends React.Component {
   render() {
     const navItems = ['HOME', 'ABOUT', 'SKILLS', 'CONTACT'];
     const pathNavItens = ['/', '/about', '/skills', '/contact'];
     return (
-      <div className="main-container">
-        <DrawerAppBar
-          navItems={navItems}
-          pathNavItens={pathNavItens}
-        />
-        <main className="projects">
-          <div>
-            <h1 className="projects-title">{'Projects I\'ve Worked On'}</h1>
-            <p className="projects-paragraph">{'Here are some Front-end projects I\'ve worked on recently'}</p>
-          </div>
-          <div className="projects-container">
-            {infoProjects.map((project) => {
-              const {
-                description, title, image, path, href,
-              } = project;
-              return (
-                <div key={title}>
-                  <ImgMediaCard
-                    description={description}
-                    title={title}
-                    image={image}
-                    path={path}
-                    href={href}
-                  />
-                </div>
-              );
-            })}
-          </div>
-        </main>
+      <div className="projects-main-container">
+        <header>
+          <Navbar
+            navItems={navItems}
+            pathNavItens={pathNavItens}
+          />
+        </header>
+        <Card />
       </div>
     );
   }

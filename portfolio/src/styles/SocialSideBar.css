@@ -61,6 +61,98 @@
   border: 8 68 8 40;
 }
 
+@media screen and (max-width: 466px) and (min-width: 300px){
+  .socials-fixed {
+    transform: rotate(90deg);
+  }
+
+  .socials-fixed .socials-icons a svg {
+    transform: rotate(-90deg);;
+  }
+  @keyframes show-socials {
+    from {
+      opacity: 0;
+      left: -190px;
+      top: 400px
+    }
+    to {
+      opacity: 1;
+      left: -0px;
+      top: 400px
+    }
+  }
+}
+
+@media screen and (max-width: 328px) and (min-width: 250px) {
+  .socials-fixed {
+    transform: rotate(90deg);
+  }
+  
+  .socials-fixed .socials-icons a svg {
+  transform: rotate(-90deg);;
+}
+
+  @keyframes show-socials {
+    from {
+      opacity: 0;
+      left: -190px;
+      top: 30%;
+    }
+    to {
+      opacity: 1;
+      left: -0px;
+      top: 30%;
+    }
+  }
+}
+
+@media screen and (max-width: 467px) and (min-width: 328px) {
+  .socials-fixed {
+    transform: rotate(90deg);
+  }
+  
+  .socials-fixed .socials-icons a svg {
+  transform: rotate(-90deg);;
+}
+
+  @keyframes show-socials {
+    from {
+      opacity: 0;
+      left: -190px;
+      top: 30%;
+    }
+    to {
+      opacity: 1;
+      left: -0px;
+      top: 30%;
+    }
+  }
+}
+
+@media screen and (max-width: 599px) and (min-width: 467px){
+  .socials-fixed {
+    transform: rotate(90deg);
+  }
+  
+  .socials-fixed .socials-icons a svg {
+  transform: rotate(-90deg);;
+}
+
+  @keyframes show-socials {
+    from {
+      opacity: 0;
+      left: -190px;
+      top: 400px
+    }
+    to {
+      opacity: 1;
+      left: -20px;
+      top: 400px
+    }
+  }
+}
+
+
 @media screen and (min-width: 600px) and (max-width: 728px){
   @keyframes show-socials {
     from {
@@ -69,7 +161,7 @@
     }
     to {
       opacity: 1;
-      left: -30%;
+      left: -100px;
     }
   }
 }
@@ -82,7 +174,7 @@
     }
     to {
       opacity: 1;
-      left: -45%;
+      left: -160px;
     }
   }
 }

@@ -19,6 +19,10 @@
   color:#ff6363;
 }
 
+.MuiBox-root.css-k008qs {
+  width: 0;
+}
+
 .navlink {
   color: #fff;
   display:inline-block;
@@ -66,4 +70,8 @@
 
 nav.MuiPaper-root.MuiPaper-elevation.MuiPaper-elevation4.MuiAppBar-root.MuiAppBar-colorPrimary.MuiAppBar-positionFixed.mui-fixed.css-18nlzi-MuiPaper-root-MuiAppBar-root{
   animation: show-header 3s ease forwards;
+}
+
+main.MuiBox-root.css-19kzrtu {
+  padding: 0;
 }
