@@ -64,7 +64,7 @@ class Card extends Component {
             <div className="card">
               <div className="project-content">
                 <div className="content-container">
-                  <h2>Some title</h2>
+                  <h2>Featured Project</h2>
                   <div className="project-description">
                     <p>{description}</p>
                   </div>
