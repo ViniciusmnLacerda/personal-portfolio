@@ -38,9 +38,7 @@ class Contact extends React.Component {
               </div>
             </div>
           </div>
-          <div className="contact-form">
-            <FormContact />
-          </div>
+          <FormContact />
         </div>
       </div>
     );
