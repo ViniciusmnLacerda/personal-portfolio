@@ -1,5 +1,5 @@
 import React from 'react';
-import DrawerAppBar from '../components/DrawerAppBar';
+import Navbar from '../components/Navbar';
 
 class Skills extends React.Component {
   render() {
@@ -7,7 +7,7 @@ class Skills extends React.Component {
     const pathNavItens = ['/', '/about', '/projects', '/contact'];
     return (
       <div>
-        <DrawerAppBar
+        <Navbar
           navItems={navItems}
           pathNavItens={pathNavItens}
         />

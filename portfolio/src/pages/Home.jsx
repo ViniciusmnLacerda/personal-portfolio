@@ -2,7 +2,7 @@ import React from 'react';
 import BackgroundAnimation from '../components/BackgroundAnimation';
 import EmailSideBar from '../components/EmailSideBar';
 import Loading from '../components/Loading';
-import NavBar from '../components/NavBar';
+import Navbar from '../components/Navbar';
 import SocialSideBar from '../components/SocialSideBar';
 import Title from '../components/Title';
 import '../styles/Home.css';
@@ -28,8 +28,8 @@ class Home extends React.Component {
 
   render() {
     const { loading } = this.state;
-    const navItems = ['HOME', 'PROJECTS', 'SKILLS', 'CONTACT'];
-    const pathNavItens = ['/', '/projects', '/skills', '/contact'];
+    const navItems = ['ABOUT', 'PROJECTS', 'SKILLS', 'CONTACT'];
+    const pathNavItens = ['/about', '/projects', '/skills', '/contact'];
     return (
       <div className="App">
         {loading ? (
@@ -37,7 +37,7 @@ class Home extends React.Component {
         ) : (
           <BackgroundAnimation>
             <div className="home-container">
-              <NavBar
+              <Navbar
                 navItems={navItems}
                 pathNavItens={pathNavItens}
               />

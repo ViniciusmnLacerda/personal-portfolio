@@ -70,7 +70,7 @@ class Card extends Component {
                   </div>
                   <ul className="project-tech-list">
                     {techlist.map((tech) => (
-                      <li>
+                      <li key={tech}>
                         {' '}
                         {tech
                           .split('')

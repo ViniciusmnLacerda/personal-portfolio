@@ -1,6 +1,6 @@
 import React from 'react';
 import Card from '../components/Card';
-import Navbar from '../components/NavBar';
+import Navbar from '../components/Navbar';
 
 class Projects extends React.Component {
   render() {

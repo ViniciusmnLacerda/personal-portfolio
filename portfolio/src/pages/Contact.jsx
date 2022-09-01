@@ -1,11 +1,16 @@
 import React from 'react';
-import Navbar from '../components/NavBar';
+import Navbar from '../components/Navbar';
 
 class Contact extends React.Component {
   render() {
+    const navItems = ['HOME', 'ABOUT', 'PROJECTS', 'SKILLS'];
+    const pathNavItens = ['/', '/about', '/projects', '/skills'];
     return (
       <div>
-        <Navbar />
+        <Navbar
+          navItems={navItems}
+          pathNavItens={pathNavItens}
+        />
       </div>
     );
   }

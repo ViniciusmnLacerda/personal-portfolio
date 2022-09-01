@@ -14,11 +14,11 @@ import Typography from '@mui/material/Typography';
 import PropTypes from 'prop-types';
 import * as React from 'react';
 import { Link } from 'react-router-dom';
-import '../styles/NavBar.css';
+import '../styles/Navbar.css';
 
 const drawerWidth = 240;
 
-function NavBar(props) {
+function Navbar(props) {
   const { window, navItems, pathNavItens } = props;
   const [mobileOpen, setMobileOpen] = React.useState(false);
 
@@ -99,10 +99,10 @@ function NavBar(props) {
   );
 }
 
-NavBar.propTypes = {
+Navbar.propTypes = {
   window: PropTypes.func.isRequired,
   navItems: PropTypes.arrayOf(PropTypes.string).isRequired,
   pathNavItens: PropTypes.arrayOf(PropTypes.string).isRequired,
 };
 
-export default NavBar;
+export default Navbar;
