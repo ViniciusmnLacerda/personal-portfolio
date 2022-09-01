@@ -17,17 +17,34 @@ export default function ContactUs() {
     <form className="contact-form" onSubmit={sendEmail}>
       <div className="contact-input">
         <label htmlFor="name">
-          <input placeholder="Name" type="text" id="name" name="name" />
+          <input
+            autoComplete="off"
+            placeholder="Name"
+            type="text"
+            id="name"
+            name="name"
+          />
         </label>
       </div>
       <div className="contact-input">
         <label htmlFor="email">
-          <input placeholder="Email" type="email" id="email" name="email" />
+          <input
+            autoComplete="off"
+            placeholder="Email"
+            type="email"
+            id="email"
+            name="email"
+          />
         </label>
       </div>
       <div className="contact-input">
         <label htmlFor="message">
-          <textarea placeholder="Message" name="message" id="message" />
+          <textarea
+            autoComplete="off"
+            placeholder="Message"
+            name="message"
+            id="message"
+          />
         </label>
       </div>
       <div className="contact-button">
