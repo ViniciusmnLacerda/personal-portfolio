@@ -6,9 +6,8 @@ export default class EmailSideBar extends Component {
     return (
       <div className="email-fixed">
         <a
-          href="mailto:viniciuslmn@gmail.com"
+          href="/contact"
           rel="noopener noreferrer"
-          target="_blank"
           className="email-text"
         >
           viniciuslmn@gmail.com
