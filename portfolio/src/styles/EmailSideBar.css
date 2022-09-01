@@ -3,13 +3,13 @@
   width: 400px;
   height: 70px;
   align-items: center;
-  justify-content: space-between;
   position: fixed;
+  justify-content: space-between;
   opacity: 0;
-  bottom: 120px;
   transform: rotate(90deg);
   animation: show-email 600ms ease forwards;
   animation-delay: 4.7s;
+  top: calc(100% - 175px)
 }
 
 .email-fixed .email-text {
@@ -42,80 +42,93 @@
 
 .email-fixed-line {
   margin-left: 40px;
-  width: 100%;
+  width: 175px;
 }
 
 
-@media screen and (max-width: 328px) and (min-width: 250px){
+@keyframes show-email {
+  from {
+    opacity: 0;
+    right: 100%;
+  }
+  to {
+    opacity: 1;
+    right: calc(100% - 250px);
+
+  }
+}
+
+
+
+@media screen and (max-width: 494px) and (min-width: 2px){
   .email-fixed {
-    transform: rotate(0deg);
+    transform: rotate(180deg);
+  }
+
+  .email-fixed a {
+    transform: rotate(180deg);
   }
   @keyframes show-email {
     from {
       opacity: 0;
-      right: -310px;
+      right: 500px;
+      top: calc(100% - 310px)
     }
     to {
       opacity: 1;
-      right: -170px
+      right: calc(100% - 240px);
+      top: calc(100% - 310px)
     }
   }
 }
 
-@media screen and (max-width: 466px) and (min-width: 300px){
+
+@media screen and (max-width: 599px) and (min-width: 495px){
   .email-fixed {
-    transform: rotate(0deg);
+    transform: rotate(180deg);
+  }
+
+  .email-fixed a {
+    transform: rotate(180deg);
   }
   @keyframes show-email {
     from {
       opacity: 0;
-      right: -310px;
+      right: 500px;
+      top: calc(100% - 310px)
     }
     to {
       opacity: 1;
-      right: -190px
+      right: 250px;
+      top: calc(100% - 310px)
     }
   }
 }
 
-@media screen and (max-width: 599px) and (min-width: 467px){
-  .email-fixed {
-    transform: rotate(0deg);
-  }
-  @keyframes show-email {
-    from {
-      opacity: 0;
-      right: -310px;
-    }
-    to {
-      opacity: 1;
-      right: -180px
-    }
-  }
-}
 
-@media screen and (min-width: 600px) and (max-width: 728px){
-  @keyframes show-email {
-    from {
-      opacity: 0;
-      right: -310px;
-    }
-    to {
-      opacity: 1;
-      right: -240px
-    }
-  }
-}
 
 @media screen and (min-width: 729px) and (max-width: 1130px){
   @keyframes show-email {
     from {
       opacity: 0;
-      right: -380px;
+      right: 100%;
     }
     to {
       opacity: 1;
-      right: -80%
+      right: calc(100% - 300px);
+    }
+  }
+}
+
+@media screen and (min-width: 1250px){
+  @keyframes show-email {
+    from {
+      opacity: 0;
+      right: 100%;
+    }
+    to {
+      opacity: 1;
+      right: calc(100% - 400px);
     }
   }
 }

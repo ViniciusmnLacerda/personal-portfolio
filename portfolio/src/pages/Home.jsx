@@ -1,5 +1,5 @@
+import PropTypes from 'prop-types';
 import React from 'react';
-import BackgroundAnimation from '../components/BackgroundAnimation';
 import EmailSideBar from '../components/EmailSideBar';
 import Loading from '../components/Loading';
 import Navbar from '../components/Navbar';
@@ -20,6 +20,11 @@ class Home extends React.Component {
     this.fakeLoading();
   }
 
+  handleClick = () => {
+    const { history } = this.props;
+    history.push('/projects');
+  };
+
   fakeLoading() {
     setTimeout(() => {
       this.setState({ loading: false });
@@ -35,22 +40,28 @@ class Home extends React.Component {
         {loading ? (
           <Loading />
         ) : (
-          <BackgroundAnimation>
-            <div className="home-container">
-              <Navbar
-                navItems={navItems}
-                pathNavItens={pathNavItens}
-              />
-              <Title>
-                <SocialSideBar />
-                <EmailSideBar />
-              </Title>
-            </div>
-          </BackgroundAnimation>
+          <div className="home-container">
+            <Navbar
+              navItems={navItems}
+              pathNavItens={pathNavItens}
+            />
+            <Title />
+            <button onClick={this.handleClick} className="home-button" type="button">
+              My work
+            </button>
+            <EmailSideBar />
+            <SocialSideBar />
+          </div>
         )}
       </div>
     );
   }
 }
+
+Home.propTypes = {
+  history: PropTypes.shape({
+    push: PropTypes.func.isRequired,
+  }).isRequired,
+};
 
 export default Home;

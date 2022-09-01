@@ -1,11 +1,9 @@
 /* eslint-disable react/no-array-index-key */
-import PropTypes from 'prop-types';
 import React from 'react';
 import '../styles/Title.css';
 
 class Title extends React.Component {
   render() {
-    const { children } = this.props;
     const subTitle = 'FRONT-END DEVELOPER.';
     return (
       <div className="body-title animated fadeInDown">
@@ -20,17 +18,9 @@ class Title extends React.Component {
             .map((letter, index) => (<span key={index} className="letter-subtitle">{letter}</span>))}
 
         </div>
-        {children}
       </div>
     );
   }
 }
-
-Title.propTypes = {
-  children: PropTypes.oneOfType([
-    PropTypes.arrayOf(PropTypes.node),
-    PropTypes.node,
-  ]).isRequired,
-};
 
 export default Title;

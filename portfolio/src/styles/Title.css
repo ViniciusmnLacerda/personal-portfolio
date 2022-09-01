@@ -3,7 +3,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 100vh;
+  height: 100%
 }
 
 .title{
@@ -102,9 +102,6 @@
 
 
 @media screen and (max-width: 328px) and (min-width: 250px){
-  .body-title {
-    margin-left: -0px;
-  }
   .title{
     font-size: 18px;
   }
@@ -126,10 +123,6 @@
 }
 
 @media screen and (max-width: 414px) and (min-width: 329px){
-  .body-title {
-    margin-left: -5px;
-  }
-  
   .title{
     font-size: 28px;
     letter-spacing: 2px;
@@ -152,9 +145,6 @@
 }
 
 @media screen and (min-width: 415px) and (max-width: 599px){
-  .body-title {
-    margin-left: -37px;
-  }
   .title{
     font-size: 36px;
     letter-spacing: 2px;

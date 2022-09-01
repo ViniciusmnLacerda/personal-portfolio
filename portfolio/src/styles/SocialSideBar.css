@@ -3,13 +3,13 @@
   align-items: center;
   flex-direction: column;
   justify-content: center;
+  position: fixed;
   width: 70px;
   height: 400px;
-  position: fixed;
   opacity: 0;
-  bottom: -80px;
   animation: show-socials 600ms ease forwards;
   animation-delay: 4.7s;
+  top: calc(100% - 300px)
 }
 
 .socials-fixed.socials-fixed-line {
@@ -29,9 +29,9 @@
 .socials-icons {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-evenly;
   align-items: center;
-  height: 90px;
+  height: 150px;
   width: 50px;
   font-size: 1.5rem;
 }
@@ -53,128 +53,94 @@
 }
 
 .socials-fixed-line {
-  margin-top: 60px;
-  width: 90px;
-  transform: rotate(90deg);
+  width: 2px;
+  height: 175px;
   text-align: center;
   background-color: var(--main-white);
   border: 8 68 8 40;
 }
 
-@media screen and (max-width: 466px) and (min-width: 300px){
-  .socials-fixed {
-    transform: rotate(90deg);
+@keyframes show-socials {
+  from {
+    opacity: 0;
+    right: -260px;
   }
-
-  .socials-fixed .socials-icons a svg {
-    transform: rotate(-90deg);;
-  }
-  @keyframes show-socials {
-    from {
-      opacity: 0;
-      left: -190px;
-      top: 400px
-    }
-    to {
-      opacity: 1;
-      left: -0px;
-      top: 400px
-    }
+  to {
+    opacity: 1;
+    right: 10px;
   }
 }
 
-@media screen and (max-width: 328px) and (min-width: 250px) {
+@media screen and (max-width: 494px) and (min-width: 2px){
   .socials-fixed {
-    transform: rotate(90deg);
+    transform: rotate(-90deg);
   }
   
   .socials-fixed .socials-icons a svg {
-  transform: rotate(-90deg);;
+  transform: rotate(90deg);;
 }
 
   @keyframes show-socials {
     from {
       opacity: 0;
-      left: -190px;
-      top: 30%;
+      left: 600px;
+      top: calc(100% - 400px)
     }
     to {
       opacity: 1;
-      left: -0px;
-      top: 30%;
+      left: calc(100% - 100px);
+      top: calc(100% - 400px)
     }
   }
 }
 
-@media screen and (max-width: 467px) and (min-width: 328px) {
+
+@media screen and (max-width: 599px) and (min-width: 495px){
   .socials-fixed {
-    transform: rotate(90deg);
+    transform: rotate(-90deg);
   }
   
   .socials-fixed .socials-icons a svg {
-  transform: rotate(-90deg);;
+  transform: rotate(90deg);;
 }
 
   @keyframes show-socials {
     from {
       opacity: 0;
-      left: -190px;
-      top: 30%;
+      left: 600px;
+      top: calc(100% - 400px)
     }
     to {
       opacity: 1;
-      left: -0px;
-      top: 30%;
+      left: 400px;
+      top: calc(100% - 400px)
     }
   }
 }
 
-@media screen and (max-width: 599px) and (min-width: 467px){
-  .socials-fixed {
-    transform: rotate(90deg);
-  }
-  
-  .socials-fixed .socials-icons a svg {
-  transform: rotate(-90deg);;
-}
-
-  @keyframes show-socials {
-    from {
-      opacity: 0;
-      left: -190px;
-      top: 400px
-    }
-    to {
-      opacity: 1;
-      left: -20px;
-      top: 400px
-    }
-  }
-}
-
-
-@media screen and (min-width: 600px) and (max-width: 728px){
-  @keyframes show-socials {
-    from {
-      opacity: 0;
-      left: -190px;
-    }
-    to {
-      opacity: 1;
-      left: -100px;
-    }
-  }
-}
 
 @media screen and (min-width: 729px) and (max-width: 1130px){
   @keyframes show-socials {
     from {
       opacity: 0;
-      left: -260px;
+      left: 100%;
     }
     to {
       opacity: 1;
-      left: -160px;
+      left: calc(100% - 135px)
+    }
+  }
+}
+
+@media screen and (min-width: 1250px){
+  @keyframes show-socials {
+    from {
+      opacity: 0;
+      left: 100%;
+    }
+    to {
+      opacity: 1;
+      left: calc(100% - 235px)
     }
   }
 }

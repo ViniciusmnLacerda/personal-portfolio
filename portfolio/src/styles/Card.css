@@ -42,12 +42,12 @@
   justify-content: center;
   width: 100%;
   font-size: 36px;
-  color: #fff;
+  color: #ff6363;
   line-height: 1.1;
   letter-spacing: 4px;
 }
 .content-slide h1 span {
-  color: #ff6363;
+  color: #fff;
   font-family: monospace;
   font-weight: 400;
   font-size: 28px;
@@ -61,7 +61,7 @@
   width: 40%;
   height: 1px;
   margin-left: 20px;
-  background-color: #ff6363;
+  background-color: #fff;
 }
 
 .card {
@@ -88,7 +88,7 @@
 }
 
 .project-content div h2 {
-  color: #ff6363;
+  color: #fff;
   font-size: 34px;
 }
 
@@ -213,7 +213,7 @@
   border-radius: 30px;
 }
 
-@media screen and (max-width: 489px) and (min-width: 2px) {
+@media screen and (max-width: 489px) {
   .content-slide {
     height: 100%;
     width: 100%;
@@ -281,7 +281,8 @@
   }
 
   .project-tech-list {
-    justify-content: space-around;
+    justify-content: flex-start;
+    width: 40%;
   }
 
   .letter-techlist {
