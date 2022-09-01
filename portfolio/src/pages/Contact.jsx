@@ -19,11 +19,11 @@ class Contact extends React.Component {
           <div className="contact-content-header">
             <div className="contact-header-title">
               <h1>
-                Want to contact me?
+                Have any questions?
               </h1>
             </div>
             <div className="contact-subtitle">
-              <p>Want to work together or have any questions?</p>
+              <p>Please do not hesitate to contact us should you have any questions or comments.</p>
               <div className="contact-socials-icons">
                 <a
                   href="https://www.linkedin.com/in/viniciuslmn/"
