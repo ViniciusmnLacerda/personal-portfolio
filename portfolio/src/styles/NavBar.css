@@ -1,7 +1,16 @@
 .navlink {
   text-decoration: none;
-  color: #fff;
-  font-weight: 100;
+  color: #ff6363;
+  font-weight: 600;
+  display:inline-block;
+  margin: 0;
+  text-transform:uppercase;
+  letter-spacing: 2px;
+}
+
+.MuiTypography-root.MuiTypography-h6.css-p7bec2-MuiTypography-root {
+  letter-spacing: 2px;
+  font-weight: 600px;
 }
 
 .small-navlink {
@@ -11,7 +20,7 @@
 }
 
 .navlink:hover {
-  color: #ff6363;
+  color: #fff;
   transform: translateY(-2px);
 }
 
@@ -23,16 +32,10 @@
   width: 0;
 }
 
-.navlink {
-  color: #fff;
-  display:inline-block;
-  margin:0;
-  text-transform:uppercase;
-}
 .navlink:after {
   display:block;
   content: '';
-  border-bottom: solid 2px #ff6363;  
+  border-bottom: solid 2px #fff;  
   transform: scaleX(0);  
   transition: transform 250ms ease-in-out;
 }
@@ -48,7 +51,7 @@
   opacity: 0.8;
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 700px) {
   .MuiToolbar-root {
     margin-left: 8%;
   }

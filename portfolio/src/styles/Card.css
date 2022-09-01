@@ -155,11 +155,8 @@
 }
 
 .project-image:hover {
-  height: calc(100% + 108px);
-  width: 100%;
   cursor: pointer;
   opacity: 1;
-  transition: 0.4s;
 }
 
 .project-image img{ 

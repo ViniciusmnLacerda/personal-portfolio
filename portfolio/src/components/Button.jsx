@@ -7,10 +7,10 @@ function Button() {
   const history = useHistory();
   const onClick = () => {
     setTimeout(() => {
-      history.push('/contact');
+      history.push('/projects');
     }, 350);
   };
-  return <ReactBubblyEffectButton text="Say hello!" color="#fff" bgColor="#ff6363" onClick={onClick} />;
+  return <ReactBubblyEffectButton text="My work" color="#ff6363" bgColor="#fff" onClick={onClick} />;
 }
 
 export default Button;

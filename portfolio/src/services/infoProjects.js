@@ -3,7 +3,7 @@ const infoProjects = [
     title: 'Expenses Manager',
     description: 'This project is an expense manager. Users should be able to: Add, remove and edit an expense; View a table with your expenses; View the total expenses converted to a currency of choice.',
     image: '/expenses-manager.png',
-    pathToApp: '/',
+    pathToApp: 'https://vinicius-expenses-manager.vercel.app/',
     pathToGitHub: 'https://github.com/ViniciusmnLacerda/expenses-manager',
     techlist: ['VS code', 'ReactJS', 'Responsive', 'Redux'],
   },
