@@ -9,7 +9,7 @@ const infoProjects = [
   },
   {
     title: 'Music Player',
-    description: 'In this application it is possible to create cards from the game Top Trumps, very famous in the 90s. This app is be able to: Fill in the form with the information of each card; Select a card to be Top Trump; View all created cards; Filter cards by rarity, name or Top Trump.',
+    description: 'Lorem ipsum dolor sit amet. Ab aspernatur nisi et impedit aperiam et optio quia quo odit eius cum temporibus doloribus. Aut consectetur ipsam in quia laudantium aut veritatis provident ea magnam dolor et distinctio assumenda ut quidem incidunt aut quas eaque? ',
     image: '/music-app.png',
     pathToApp: 'https://music-player-henna-gamma.vercel.app/',
     pathToGitHub: 'https://github.com/ViniciusmnLacerda/music-player',
@@ -17,8 +17,7 @@ const infoProjects = [
   },
   {
     title: 'Top Trump',
-    description: 'Lorem ipsum dolor sit amet. Ab aspernatur nisi et impedit aperiam et optio quia quo odit eius cum temporibus doloribus. Aut consectetur ipsam in quia laudantium aut veritatis provident ea magnam dolor et distinctio assumenda ut quidem incidunt aut quas eaque? ',
-    image: '/tryunfo.png',
+    description: 'In this application it is possible to create cards from the game Top Trumps, very famous in the 90s. This app is be able to: Fill in the form with the information of each card; Select a card to be Top Trump; View all created cards; Filter cards by rarity, name or Top Trump.',
     pathToApp: 'https://top-trumps.vercel.app/',
     pathToGitHub: 'https://github.com/ViniciusmnLacerda/top-trumps',
     techlist: ['VS code', 'ReactJS', 'Responsive', 'CSS'],
