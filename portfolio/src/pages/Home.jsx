@@ -33,8 +33,8 @@ class Home extends React.Component {
 
   render() {
     const { loading } = this.state;
-    const navItems = ['ABOUT', 'PROJECTS', 'SKILLS', 'CONTACT'];
-    const pathNavItens = ['/about', '/projects', '/skills', '/contact'];
+    const navItems = ['ABOUT', 'CONTACT', 'PROJECTS', 'SKILLS'];
+    const pathNavItens = ['/about', '/contact', '/projects', '/skills'];
     return (
       <div className="App">
         {loading ? (

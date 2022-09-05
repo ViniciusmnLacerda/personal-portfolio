@@ -3,8 +3,8 @@ import Navbar from '../components/Navbar';
 
 class About extends React.Component {
   render() {
-    const navItems = ['HOME', 'PROJECTS', 'SKILLS', 'CONTACT'];
-    const pathNavItens = ['/', '/projects', '/skills', '/contact'];
+    const navItems = ['CONTACT', 'HOME', 'PROJECTS', 'SKILLS'];
+    const pathNavItens = ['/', '/contact', '/projects', '/skills'];
     return (
       <div>
         <Navbar

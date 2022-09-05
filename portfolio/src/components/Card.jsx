@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { FiExternalLink } from 'react-icons/fi';
 import { VscGithubAlt } from 'react-icons/vsc';
-import infoProjects from '../services/infoProjects';
+import frontEndProjects from '../services/frontEndProjects';
 import '../styles/Card.css';
 
 class Card extends Component {
@@ -17,7 +17,7 @@ class Card extends Component {
 
   nextCard() {
     const { cardToRender } = this.state;
-    if (cardToRender === infoProjects.length - 1) {
+    if (cardToRender === frontEndProjects.length - 1) {
       this.setState({ cardToRender: 0 });
     } else {
       this.setState((prevState) => ({
@@ -29,7 +29,7 @@ class Card extends Component {
   previousCard() {
     const { cardToRender } = this.state;
     if (cardToRender === 0) {
-      this.setState({ cardToRender: infoProjects.length - 1 });
+      this.setState({ cardToRender: frontEndProjects.length - 1 });
     } else {
       this.setState((prevState) => ({
         cardToRender: prevState.cardToRender - 1,
@@ -52,7 +52,7 @@ class Card extends Component {
       pathToApp,
       pathToGitHub,
       image,
-    } = infoProjects[cardToRender];
+    } = frontEndProjects[cardToRender];
     return (
       <div className="card-container">
         <div className="content-slide">
@@ -114,7 +114,7 @@ class Card extends Component {
               aria-label="previous-project"
               onKeyPress={this.handleKeyPress}
             />
-            {infoProjects.map((card, index) => (
+            {frontEndProjects.map((card, index) => (
               <div
                 key={card.title}
                 className={cardToRender === index ? 'card-dot active' : 'card-dot'}

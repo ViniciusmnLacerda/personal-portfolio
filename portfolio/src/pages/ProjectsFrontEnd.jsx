@@ -2,10 +2,10 @@ import React from 'react';
 import Card from '../components/Card';
 import Navbar from '../components/Navbar';
 
-class Projects extends React.Component {
+class ProjectsFrontEnd extends React.Component {
   render() {
-    const navItems = ['HOME', 'ABOUT', 'SKILLS', 'CONTACT'];
-    const pathNavItens = ['/', '/about', '/skills', '/contact'];
+    const navItems = ['ABOUT', 'CONTACT', 'PROJECTS', 'SKILLS'];
+    const pathNavItens = ['/about', '/contact', '/projects', '/skills'];
     return (
       <div className="projects-main-container">
         <header>
@@ -20,4 +20,4 @@ class Projects extends React.Component {
   }
 }
 
-export default Projects;
+export default ProjectsFrontEnd;
