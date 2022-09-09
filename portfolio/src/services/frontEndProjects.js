@@ -16,6 +16,14 @@ const frontEndProjects = [
     techlist: ['VS code', 'ReactJS', 'Responsive', 'CSS'],
   },
   {
+    title: 'ToDo List',
+    description: 'This application is a solution for everyday to-do list. Users should be able to: Add new task to the list; Edit task from the list; Delete task from the list; Mark task as complete;',
+    image: '/todo-list.png',
+    pathToApp: 'https://viniciuslacerda-todo-list.vercel.app/',
+    pathToGitHub: 'https://github.com/ViniciusmnLacerda/todo-list',
+    techlist: ['VS code', 'ReactJS', 'Redux', 'Responsive', 'CSS'],
+  },
+  {
     title: 'Top Trump',
     description: 'In this application it is possible to create cards from the game Top Trumps, very famous in the 90s. This app is be able to: Fill in the form with the information of each card; Select a card to be Top Trump; View all created cards; Filter cards by rarity, name or Top Trump.',
     image: '/tryunfo.png',
