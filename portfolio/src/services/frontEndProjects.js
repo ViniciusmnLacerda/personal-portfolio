@@ -8,6 +8,14 @@ const frontEndProjects = [
     techlist: ['VS code', 'ReactJS', 'Responsive', 'Redux'],
   },
   {
+    title: 'Trivia Game',
+    description: "This project is a quiz game. Users should be able to: Set number of questions, quiz category, difficulty level and question type (multiple choice or boolean); Access the game's page, where you must choose one of the available answers for each of the questions presented.",
+    image: '/trivia.png',
+    pathToApp: 'https://vinicius-lacerda-trivia-game.vercel.app//',
+    pathToGitHub: 'https://github.com/ViniciusmnLacerda/trivia-game',
+    techlist: ['VS code', 'ReactJS', 'Redux', 'Responsive', 'CSS'],
+  },
+  {
     title: 'Music Player',
     description: 'Lorem ipsum dolor sit amet. Ab aspernatur nisi et impedit aperiam et optio quia quo odit eius cum temporibus doloribus. Aut consectetur ipsam in quia laudantium aut veritatis provident ea magnam dolor et distinctio assumenda ut quidem incidunt aut quas eaque? ',
     image: '/music-app.png',
