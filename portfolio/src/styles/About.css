@@ -58,11 +58,16 @@
   padding: 0 10px;
 }
 
-.about-text p {
+.about-text p, .about-text a{
   color: #fff;
   text-align: center;
   padding-bottom: 10px;
   letter-spacing: 1px;
+  text-decoration: none;
+}
+
+.about-text span, .about-text a {
+  color: #ff6363;
 }
 
 .about-image {
@@ -73,6 +78,7 @@
   max-height: 310px;
   min-width: 210px;
   min-height: 215px;
+  z-index: 2;
 }
 
 .about-image img {

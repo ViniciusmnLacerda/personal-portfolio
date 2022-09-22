@@ -10,7 +10,7 @@ import '../styles/About.css';
 class About extends React.Component {
   render() {
     const navItems = ['CONTACT', 'HOME', 'PROJECTS', 'SKILLS'];
-    const pathNavItens = ['/', '/contact', '/projects', '/skills'];
+    const pathNavItens = ['/contact', '/', '/projects', '/skills'];
     return (
       <div className="about-container">
         <Navbar
@@ -24,10 +24,18 @@ class About extends React.Component {
           <div className="about-main">
             <div className="about-text">
               <p>
-                Lorem ipsum dolor sit amet. Ab aperiam sunt est enim voluptas hic inventore vitae est facere dolor qui ducimus blanditiis eum necessitatibus fuga est quibusdam fugit. Non itaque fugiat et beatae autem est quibusdam dicta et vitae officia et nobis laudantium aut voluptate quia sed animi numquam. Eum quas omnis ex ipsa voluptatem ut nihil minus.
+                Hi!
+                {' '}
+                {'I\'m'}
+                {' '}
+                <span>Vinícius Lacerda</span>
+                {' '}
+                and I enjoy creating things that live on the internet. My interest in web development started back in 2022 when I decided to change careers, I was physics teacher.
               </p>
               <p>
-                Et quas sunt est nemo quas ea voluptates galisum. Ea commodi voluptate ad omnis quis vel neque quisquam ea nulla quod.
+                I know how to develop responsive layouts and I am constantly studying and learning new skills.
+                {' '}
+                <span><Link to="/projects">See my portfolio</Link></span>
               </p>
             </div>
             <div className="about-image">

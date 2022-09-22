@@ -4,8 +4,8 @@ import '../styles/ProjectsBackEnd.css';
 
 class ProjectsBackEnd extends Component {
   render() {
-    const navItems = ['ABOUT', 'CONTACT', 'PROJECTS', 'SKILLS'];
-    const pathNavItens = ['/about', '/contact', '/projects', '/skills'];
+    const navItems = ['ABOUT', 'CONTACT', 'HOME', 'SKILLS'];
+    const pathNavItens = ['/about', '/contact', '/home', '/skills'];
     return (
       <div className="backend-container">
         <header>

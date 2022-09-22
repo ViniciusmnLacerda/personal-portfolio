@@ -65,7 +65,10 @@ class Contact extends React.Component {
               </h1>
             </div>
             <div className="contact-subtitle">
-              <p>Please do not hesitate to contact us should you have any questions or comments.</p>
+              <p>
+                In case you have any doubts or comments to make,
+                please do not hesitate to enter in contact with us. Thank you.
+              </p>
               <div className="contact-socials-icons">
                 <a
                   href="https://www.linkedin.com/in/viniciuslmn/"
