@@ -5,7 +5,7 @@ const frontEndProjects = [
     image: '/expenses-manager.png',
     pathToApp: 'https://viniciuslacerda-expensesmanager.vercel.app/',
     pathToGitHub: 'https://github.com/ViniciusmnLacerda/expenses-manager',
-    techlist: ['VS code', 'ReactJS', 'Responsive', 'Redux'],
+    techlist: ['VS code', 'ReactJS', 'Responsive', 'Redux', 'API'],
   },
   {
     title: 'Trivia Game',
@@ -13,15 +13,15 @@ const frontEndProjects = [
     image: '/trivia.png',
     pathToApp: 'https://vinicius-lacerda-trivia-game.vercel.app//',
     pathToGitHub: 'https://github.com/ViniciusmnLacerda/trivia-game',
-    techlist: ['VS code', 'ReactJS', 'Redux', 'Responsive', 'CSS'],
+    techlist: ['VS code', 'ReactJS', 'Redux', 'Responsive', 'CSS', 'API'],
   },
   {
     title: 'Music Player',
-    description: 'Lorem ipsum dolor sit amet. Ab aspernatur nisi et impedit aperiam et optio quia quo odit eius cum temporibus doloribus. Aut consectetur ipsam in quia laudantium aut veritatis provident ea magnam dolor et distinctio assumenda ut quidem incidunt aut quas eaque? ',
+    description: 'this projects is a music player. Users should be able to: Search for a band or artist; Preview the songs ia selected album; Favorite and unfavorite song; Viewing the list of favorite songs; View and edit the profile of the logged.',
     image: '/music-app.png',
     pathToApp: 'https://music-player-henna-gamma.vercel.app/',
     pathToGitHub: 'https://github.com/ViniciusmnLacerda/music-player',
-    techlist: ['VS code', 'ReactJS', 'Responsive', 'CSS'],
+    techlist: ['VS code', 'ReactJS', 'Responsive', 'CSS', 'API'],
   },
   {
     title: 'ToDo List',

@@ -35,7 +35,7 @@ class About extends React.Component {
               <p>
                 I know how to develop responsive layouts and I am constantly studying and learning new skills.
                 {' '}
-                <span><Link to="/projects">See my portfolio</Link></span>
+                <span><Link to="/projects">See my projects</Link></span>
               </p>
             </div>
             <div className="about-image">
