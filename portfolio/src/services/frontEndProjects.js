@@ -1,5 +1,13 @@
 const frontEndProjects = [
   {
+    title: 'Recipes App',
+    description: 'This project was developed in a group. It is a recipe app and it was built with React and Redux.',
+    image: '/recipes-app.png',
+    pathToApp: 'https://viniciuslacerda-recipes-app.vercel.app/',
+    pathToGitHub: 'https://github.com/ViniciusmnLacerda/recipes-app',
+    techlist: ['VS code', 'ReactJS', 'Responsive', 'Redux', 'API'],
+  },
+  {
     title: 'Expenses Manager',
     description: 'This project is an expense manager. Users should be able to: Add, remove and edit an expense; View a table with your expenses; View the total expenses converted to a currency of choice.',
     image: '/expenses-manager.png',
@@ -13,7 +21,7 @@ const frontEndProjects = [
     image: '/trivia.png',
     pathToApp: 'https://vinicius-lacerda-trivia-game.vercel.app//',
     pathToGitHub: 'https://github.com/ViniciusmnLacerda/trivia-game',
-    techlist: ['VS code', 'ReactJS', 'Redux', 'Responsive', 'CSS', 'API'],
+    techlist: ['VS code', 'ReactJS', 'Redux', 'Responsive', 'API'],
   },
   {
     title: 'Music Player',
