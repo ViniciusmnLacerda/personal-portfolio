@@ -83,6 +83,20 @@
   padding: 20px 0;
 }
 
+.skills-card-container::-webkit-scrollbar {
+  width: 5px;               /* width of the entire scrollbar */
+}
+
+.skills-card-container::-webkit-scrollbar-track {
+  background: black;        /* color of the tracking area */
+}
+
+.skills-card-container::-webkit-scrollbar-thumb {
+  background-color: grey;    /* color of the scroll thumb */
+  border-radius: 20px;       /* roundness of the scroll thumb */
+  border: 3px solid grey;  /* creates padding around scroll thumb */
+}
+
 .cards-container {
   width: 100%;
   height: 100%;
