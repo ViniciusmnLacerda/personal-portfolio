@@ -91,6 +91,7 @@
   position: relative;
   opacity: 1;
   z-index: 2;
+  overflow-y: scroll;
 }
 
 .project-description p {
@@ -115,8 +116,9 @@
   width: 100%;
   list-style: none;
   display: flex;
-  justify-content: end;
-  gap: 40px
+  justify-content: space-evenly;
+  gap: 40px;
+  overflow-x: scroll;
 }
 
 .letter-techlist {
@@ -261,7 +263,7 @@
   }
 
   .project-description p {
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     line-height: 20px;
     text-align: left;
     background-color: #181818;
@@ -269,7 +271,7 @@
 
   .project-tech-list {
     justify-content: flex-start;
-    width: 40%;
+    width: 100%;
   }
 
   .letter-techlist {

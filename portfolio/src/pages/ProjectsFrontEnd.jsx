@@ -1,5 +1,5 @@
 import React from 'react';
-import Card from '../components/Card';
+import CardFront from '../components/CardFront';
 import Navbar from '../components/Navbar';
 import '../styles/ProjectsFrontEnd.css';
 
@@ -15,7 +15,7 @@ class ProjectsFrontEnd extends React.Component {
             pathNavItens={pathNavItens}
           />
         </header>
-        <Card />
+        <CardFront />
       </div>
     );
   }

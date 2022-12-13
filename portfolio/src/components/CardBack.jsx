@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import { FiExternalLink } from 'react-icons/fi';
 import { VscGithubAlt } from 'react-icons/vsc';
-import frontEndProjects from '../services/frontEndProjects';
+import backEndProjects from '../services/backEndProjects';
 import '../styles/Card.css';
 
-class Card extends Component {
+class CardBack extends Component {
   constructor() {
     super();
     this.state = {
@@ -17,7 +17,7 @@ class Card extends Component {
 
   nextCard() {
     const { cardToRender } = this.state;
-    if (cardToRender === frontEndProjects.length - 1) {
+    if (cardToRender === backEndProjects.length - 1) {
       this.setState({ cardToRender: 0 });
     } else {
       this.setState((prevState) => ({
@@ -29,7 +29,7 @@ class Card extends Component {
   previousCard() {
     const { cardToRender } = this.state;
     if (cardToRender === 0) {
-      this.setState({ cardToRender: frontEndProjects.length - 1 });
+      this.setState({ cardToRender: backEndProjects.length - 1 });
     } else {
       this.setState((prevState) => ({
         cardToRender: prevState.cardToRender - 1,
@@ -52,7 +52,7 @@ class Card extends Component {
       pathToApp,
       pathToGitHub,
       image,
-    } = frontEndProjects[cardToRender];
+    } = backEndProjects[cardToRender];
     return (
       <div className="card-container">
         <div className="content-slide">
@@ -114,7 +114,7 @@ class Card extends Component {
               aria-label="previous-project"
               onKeyPress={this.handleKeyPress}
             />
-            {frontEndProjects.map((card, index) => (
+            {backEndProjects.map((card, index) => (
               <div
                 key={card.title}
                 className={cardToRender === index ? 'card-dot active' : 'card-dot'}
@@ -139,4 +139,4 @@ class Card extends Component {
     );
   }
 }
-export default Card;
+export default CardBack;

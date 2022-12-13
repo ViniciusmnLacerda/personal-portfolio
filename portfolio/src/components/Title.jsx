@@ -4,7 +4,7 @@ import '../styles/Title.css';
 
 class Title extends React.Component {
   render() {
-    const subTitle = 'FRONT-END DEVELOPER.';
+    const subTitle = 'FULL-STACK DEVELOPER.';
     return (
       <div className="body-title animated fadeInDown">
         <h1 className="title">
