@@ -6,7 +6,7 @@ import '../styles/ProjectsFrontEnd.css';
 class ProjectsFrontEnd extends React.Component {
   render() {
     const navItems = ['ABOUT', 'CONTACT', 'HOME', 'SKILLS'];
-    const pathNavItens = ['/about', '/contact', '/home', '/skills'];
+    const pathNavItens = ['/about', '/contact', '/', '/skills'];
     return (
       <div className="projects-main-container">
         <header>
