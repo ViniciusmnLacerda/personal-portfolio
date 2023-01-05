@@ -7,10 +7,13 @@ import { FaDocker, FaGithub, FaReact } from 'react-icons/fa';
 import { GrMysql } from 'react-icons/gr';
 import { IoLogoCss3, IoLogoHtml5, IoLogoNodejs } from 'react-icons/io';
 import {
-  SiJavascript,
+  SiExpress, SiJavascript,
   SiJest,
   SiMocha,
+  SiPostgresql,
+  SiPrisma,
   SiRedux,
+  SiSequelize,
   SiTestinglibrary,
   SiTrello,
   SiTypescript,
@@ -31,12 +34,28 @@ const skills = [
     title: 'Node.js',
   },
   {
+    icon: <SiExpress />,
+    title: 'Express',
+  },
+  {
     icon: <FaDocker />,
     title: 'Docker',
   },
   {
     icon: <GrMysql />,
     title: 'MySQL',
+  },
+  {
+    icon: <SiPostgresql />,
+    title: 'PostgreSQL'
+  },
+  {
+    icon: <SiSequelize />,
+    title: 'Sequelize'
+  },
+  {
+    icon: <SiPrisma />,
+    title: 'Prisma'
   },
   {
     icon: <SiMocha />,
