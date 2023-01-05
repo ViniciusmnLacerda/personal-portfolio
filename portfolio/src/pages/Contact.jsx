@@ -1,3 +1,4 @@
+/* eslint-disable no-console */
 import emailjs from 'emailjs-com';
 import PropTypes from 'prop-types';
 import React from 'react';
